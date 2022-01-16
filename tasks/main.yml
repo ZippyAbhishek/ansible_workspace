@@ -1,0 +1,18 @@
+---
+# tasks file for vim
+- name: Create first files
+  file:
+    dest: /home/ubuntu/temp/firstfile.txt
+    state: '{{file_state}}'
+  tags:
+    - create_fileOne
+
+- name: Create 2nd file
+  file:
+    dest: /home/ubuntu/temp/secfile.txt
+    state: '{{file_state}}'
+  tags:
+    - create_file2
+
+
+

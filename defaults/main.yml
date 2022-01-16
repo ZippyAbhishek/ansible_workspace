@@ -1,0 +1,6 @@
+---
+# defaults file for vim
+#
+ file_dest: /home/ubuntu/temp/
+ first_file: firstfile.txt
+ Sec_file: secfile.txt
